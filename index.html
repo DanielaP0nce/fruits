@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CS1300 HTML/CSS/JS Studio</title>
+    <!-- import javascript variables and functions -->
+    <script src="app.js"></script>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="styles.css" /> 
+  </head>
+
+  <!-- page content goes into <body> -->
+  <body>
+    <div id="cs1300-gallery">
+      <h1>Welcome to my bakery</h1>
+
+      <div class = "flex-images">
+        <img src = "assets/cheesecake.jpeg">
+        <img src = "assets/cake1.jpg">
+        <img src = "assets/cake2.jpg">
+        <img src = "assets/cake3.jpg">
+        <img src = "assets/cheesecake.jpeg">
+      </div>
+
+      <p></p>
+        
+     
+
+        
+      <!-- TODO: PART I Add your own images and use CSS flex to make sure they work on different screen sizes -->
+      <div class="gallery-item-container">
+        <img class="gallery-item" src="./assets/jeff.jpg" alt="jeff watching u">
+        <p>
+    
+          <div id = "add"></div>
+
+      <!-- TODO: PART II Uncomment the line below, and hook up this button to display data from an API -->
+      <button onclick= "updatePage()">Press this button to display some cheesecake data</button> 
+    </div>
+  </body>
+
+</html>
